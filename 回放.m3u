@@ -1,4 +1,12 @@
-所有频道,#genre#,
-CCTV-1高清,udp/239.3.1.129:8008/PLTV/88888895/224/3221228504/658582939.smil
-CCTV-2高清,udp/239.3.1.60:8084/PLTV/88888896/224/3221227983/10000100000000060000000003751359_0.smil
-CCTV-3高清,udp/239.3.1.172:8001/PLTV/88888895/224/3221228508/666944883.smil
+#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml.gz"
+
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视",CCTV-1综合
+http://192.168.5.202:4022/udp/239.3.1.129:8008
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视",CCTV-2财经
+http://192.168.5.202:4022/udp/239.3.1.60:8084
+#EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="央视",CCTV-3综艺
+http://192.168.5.202:4022/udp/239.3.1.172:8001
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视",CCTV-4中文国际
+http://192.168.5.202:4022/udp/239.3.1.105:8092
+#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视",CCTV-4中文国际欧洲
+http://192.168.5.202:4022/udp/239.3.1.213:4220
